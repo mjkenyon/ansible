@@ -2,7 +2,7 @@
 `na_ots_deploy`: Create, configure and run the OTS deploy VM.
 
 # Requirements
-The Server that will host the deploy VM should be prepared according to ONTAP Select specifications with appropriate virtualization environment and storage and networking configured as required.
+The Server that will host the deploy VM should be prepared according to ONTAP Select specifications withing the appropriate virtualization environment and storage and networking configured as required.
 Ansible 2.7 or greater is needed to run this role.
 
 # Role Variables
@@ -37,7 +37,7 @@ deploy_searchDomains: <Search Domain>
     - na_ots_deploy
 ```
 # Example Global file
-Using global file for variable helps.  Sample below
+Using a global file for variables helps. Sample below:
 ```yaml
 target_vcenter_or_esxi_host: "10.xxx.xx.xx"
 host_login: "yourlogin@yourlab.local"
@@ -58,5 +58,5 @@ deploy_searchDomains: "your.search.domain.com"
 ```
 # License
 BSD
-#Author Information
+# Author Information
 NetApp
